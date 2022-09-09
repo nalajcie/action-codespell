@@ -32,6 +32,9 @@ The codespell action can be configured with two files in the main repository:
 - `.codespell_skip` contains one path or pattern per line (paths starting
   with `./`) which will be skipped during the check.
 - `-codespell_exclude` contains source lines which will not be checked.
+- `.codespell_ignore` contains words which will be ignored by codespell.
+  File must contain 1 word per line. Words are case sensitive based on how they
+  are written in the dictionary file.
 
 ## Example usage
 
